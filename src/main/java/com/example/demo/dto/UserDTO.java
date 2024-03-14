@@ -15,6 +15,7 @@ import java.time.LocalDateTime;
 public class UserDTO {
     @NotBlank(message="Nome é obrigatório")
     private	String	nome;
+    private String key;
     @NotBlank(message="CPF é obrigatório")
     private	String	cpf;
     private	String	endereco;
